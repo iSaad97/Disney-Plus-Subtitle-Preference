@@ -1,0 +1,21 @@
+:root {
+  --test: aqua;
+}
+.container {
+  height: 300px;
+  width: 250px !important;
+  padding: 10px;
+}
+.row {
+  margin-top: 2vh;
+}
+.submit-btn {
+  justify-content: center;
+}
+
+.fa-github {
+  padding: 0px 0px 10px 10px;
+}
+.subtitle_background {
+  align-items: center;
+}

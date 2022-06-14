@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Disney Font Changer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <label for="fontSize">Font Size:</label>
+        <div class="input-group">
+          <input type="number" id="fontSize" class="form-control" min="1" value="80">
+          <div class="input-group-append">
+              <span class="input-group-text"> px </span>
+          </div>
+       </div> 
+      </div>
+ 
+        <div class="row">
+          <label for="exampleColorInput" class="form-label">Subtitle color:</label>
+          <div class="input-group">
+            <input
+            type="color"
+            class="form-control form-control-color"
+            id="subtitle_color"
+            value="#FFFFFF"
+            title="Choose your color"
+            />
+          </div>
+        </div>
+        <div class="row subtitle_background" >
+          <label for="" class="form-label">Subtitle background color:</label>
+          <div class="col">
+
+            <div class="input-group">
+              <input
+              type="color"
+              class="form-control form-control-color"
+              id="subtitle_background_color"
+              value="rgb(0, 0, 0)"
+              title="Choose your color"
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <label for="transparent_background">Transparent</label>
+            <input type="checkbox" name="transparent_background" id="transparent_background">
+          </div>
+        </div>
+        <div class="row">
+  
+          <div class="input-group submit-btn">
+            
+            <button class="btn btn-primary" id="submit-btn">Apply</button>
+          </div>
+          <a target="_blank" href="https://github.com/iSaad97/Disney-plus-subtitle-changer">
+            
+            <i class="fa fa-github" style="font-size:24px"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+  
+    <script src="popup.js" ></script>
+  </body>
+</html>
