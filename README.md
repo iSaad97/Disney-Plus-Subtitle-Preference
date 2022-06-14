@@ -1,10 +1,10 @@
 ﻿# Disney-Plus-Subtitle-Preference
 
-disney plus launch in middle east with no option to control the subtile preference, this extention will give you the abilty to 
+This extention will give you the abilty to change the subtitle preference of the following on disney plus: 
 
-1. change the font size 
-2. change the subtitle color
-3. change the subtitle background color  
+1. the font size 
+2. the subtitle color
+3. the subtitle background color  
 
 ![1](https://user-images.githubusercontent.com/48868579/173608556-bca2cbe6-36c0-415d-8acd-0ab7fa1b2c19.png)
 
